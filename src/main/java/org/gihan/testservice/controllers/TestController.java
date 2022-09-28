@@ -6,10 +6,10 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/test")
 public class TestController {
 
-    @GetMapping("/hello/{name}")
-    public String testFunction(@PathVariable String name){
-        System.out.println("HI "+ name);
-        return "Hi " + name;
+    @GetMapping("/hello")
+    public String testFunction(){
+        System.out.println("\nHi from test base path");
+        return "Hi from test base path";
     }
 
 
