@@ -3,7 +3,7 @@ package org.gihan.testservice.controllers;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/buysmartdotcom-test-service")
+@RequestMapping("/testdotcom-test-service")
 public class TestController {
 
     @GetMapping("/hello")
